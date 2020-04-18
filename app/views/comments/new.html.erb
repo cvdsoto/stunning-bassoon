@@ -1,0 +1,9 @@
+<%= form_for(@comment) do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name, :autofocus => true %>
+
+<%= f.label :comment %>
+<%= f.text_area :comment, size: "40x6" %>
+
+<%= f.submit %>
+<% end %>
