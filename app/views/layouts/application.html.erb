@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Projectmuse</title>
+    <title>Joel is Awesome</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,7 +10,16 @@
   </head>
 
   <body>
-    <h1>How Awesome is Joel??</h1>
-    <%= yield %>
+    <header>
+      <h1><%= link_to "Joel Is Awesome!", root_path  %></h1>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+    <footer>
+      <span>Made with &hearts; by GA SEI-36</span>
+    </footer>
   </body>
 </html>

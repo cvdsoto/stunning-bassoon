@@ -1,5 +1,7 @@
 
 <% @comments.each do |comment| %>
-  <p><%= comment.comment %></p>
-  <p>-<%= comment.name %></p>
+  <div class="comment-box">
+    <p><%= comment.comment %></p>
+    <p class="name">- <%= comment.name %></p>
+  </div>
 <% end %>
