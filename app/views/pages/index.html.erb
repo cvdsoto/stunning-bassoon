@@ -1,12 +1,12 @@
 <!-- FYI: we're not saving anything here on this page in our database -->
 
+<%= image_tag("SEI36_sticker.png", :alt => "SEI 36 Sticker", :class => "sei36-sticker") %>
 <h3>Do you think Joel is the best?</h3>
-<!-- maybe put icons here instead??? lol -->
 <button>YES OF COURSE</button>
 <button>NO ONE IS BETTER</button>
 
 <p>LOL IDK WHAT TO PUT HERE so i'll let ya guys decide</p>
 
-<%= link_to "Continue", new_comment_path, class: "comment-add" %>
+<%= link_to "Comment Here!", new_comment_path, class: "comment-add" %>
 <br>
 <%= link_to "See what others think of Joel", comments_path %>

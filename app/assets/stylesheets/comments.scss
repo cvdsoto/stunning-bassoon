@@ -7,6 +7,7 @@ body {
 main {
   max-width: 960px;
   margin: 50px auto;
+  text-align: center;
 }
 
 header,
@@ -59,6 +60,8 @@ main a{
 .comment-add{
   width: 80px;
   text-align: center;
+  background: linear-gradient(90deg, rgba(102,188,171,1) 0%, rgba(111,218,123,1) 51%, rgba(101,186,174,1) 100%);
+  margin: 0 auto;
 }
 
 .comment-box {
@@ -70,4 +73,8 @@ main a{
 
 .name {
   text-align: right;
+}
+
+.sei36-sticker {
+  width: 250px;
 }
