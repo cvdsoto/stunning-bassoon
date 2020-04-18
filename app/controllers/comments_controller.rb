@@ -12,12 +12,6 @@ class CommentsController < ApplicationController
     redirect_to comments_path
   end
 
-  def edit
-  end
-
-  def show
-  end
-
   private
   def comment_params
     params.require(:comment).permit(:name, :comment)
