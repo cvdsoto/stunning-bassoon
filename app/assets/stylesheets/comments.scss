@@ -5,6 +5,8 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
   min-height: 100vh;
+  display:grid;
+  grid-template-rows: 1fr auto;
 }
 
 main {
@@ -27,6 +29,11 @@ header {
 h1, h2 {
   // font-family: 'Press Start 2P', cursive;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title a{
+  text-decoration: none;
+  color: #000;
 }
 
 form input,
@@ -55,6 +62,7 @@ input[type=submit],
 .comment-add{
   background-color: #4CAF50;
   border: none;
+  border-radius: 0.5em;
   color: white;
   padding: 16px 32px;
   text-decoration: none;
@@ -91,3 +99,5 @@ main a{
 .sei36-sticker {
   width: 250px;
 }
+
+
