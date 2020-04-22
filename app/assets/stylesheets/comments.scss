@@ -7,6 +7,7 @@ body {
   min-height: 100vh;
   display:grid;
   grid-template-rows: 1fr auto;
+  overflow: hidden;
 }
 
 main {
@@ -111,5 +112,13 @@ main a{
   position: absolute;
   opacity: 0.6;
   overflow: hidden;
+  z-index: -100;
+}
+
+.butterfly-fly {
+  position: absolute;
+  transform: rotate(30deg);
+  bottom: -200px;
+  left: 200px;
   z-index: -100;
 }
