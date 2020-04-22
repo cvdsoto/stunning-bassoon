@@ -75,6 +75,11 @@ main a{
   display: block;
 }
 
+.comment-wrapper {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
 .comment-add{
   width: 115px;
   text-align: center;
@@ -121,4 +126,5 @@ main a{
   bottom: -200px;
   left: 200px;
   z-index: -100;
+  overflow: hidden;
 }

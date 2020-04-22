@@ -1,4 +1,5 @@
 <%# just display the comments here that's all %>
+<div class='comment-wrapper'>
 <% @comments.each do |comment| %>
   <div class="comment-box">
     <p><%= comment.comment %></p>
@@ -6,4 +7,5 @@
   </div>
 <% end %>
 
+</div>
 <%= link_to "Back to Home", root_path %>
