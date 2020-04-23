@@ -1,12 +1,13 @@
 <!-- FYI: we're not saving anything here on this page in our database -->
 <%= image_tag("SEI36_sticker.png", :alt => "SEI 36 Sticker", :class => "sei36-sticker") %>
 <h3>Do you think Joel is the best?</h3>
-<button>YES OF COURSE</button>
-<button>NO ONE IS BETTER</button>
+<!-- <button>YES OF COURSE</button>
+<button>NO ONE IS BETTER</button> -->
+<%= link_to "YES OF COURSE!", new_comment_path, class: "comment-add" %>
+<%= link_to "NO ONE IS BETTER!", new_comment_path, class: "comment-add" %>
 
 <p>HELLO CRUEL WORLD</p>
 
-<%= link_to "Comment Here!", new_comment_path, class: "comment-add" %>
 <br>
 <%= link_to "See what others think of Joel", comments_path %>
 <div id="butterfly-cage">
